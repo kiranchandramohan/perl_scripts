@@ -1,0 +1,48 @@
+YAML::Tiny does not support JSON::backportPP::Boolean references at /usr/share/perl5/YAML/Tiny.pm line 539.
+---
+actions:
+  -
+    link: https://www.facebook.com/714395163/posts/10153150628510164
+    name: Comment
+  -
+    link: https://www.facebook.com/714395163/posts/10153150628510164
+    name: Like
+application:
+  id: 2309869772
+  name: Links
+created_time: 2013-08-11T17:21:50+0000
+from:
+  id: 714395163
+  name: 'Girish V. Nair'
+icon: https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/aS8ecmYRys0.gif
+id: 714395163_10153150628510164
+link: https://www.facebook.com/photo.php?fbid=10200360690728776&set=gm.624278577606542&type=1
+name: "Photos from Sajith Chinnus's post in DR. N GOPALAKRISHNAN - IISH"
+object_id: 10200360690728776
+picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-frc1/1150237_10200360690728776_88293653_s.jpg
+privacy:
+  value: ''
+properties:
+  -
+    href: https://www.facebook.com/sajithpavithran
+    name: By
+    text: 'Sajith Chinnus'
+status_type: shared_story
+story: "Girish V. Nair shared Sajith Chinnus's photo."
+story_tags:
+  0:
+    -
+      id: 714395163
+      length: 14
+      name: 'Girish V. Nair'
+      offset: 0
+      type: user
+  22:
+    -
+      id: 1500236871
+      length: 14
+      name: 'Sajith Chinnus'
+      offset: 22
+      type: user
+type: photo
+updated_time: 2013-08-11T17:21:50+0000
