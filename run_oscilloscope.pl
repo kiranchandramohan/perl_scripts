@@ -5,10 +5,28 @@ use WWW::Mechanize ;
 my $csv_url = 'http://129.215.90.114/data/mso_setting4.html' ;
 my $acquire_url = "http://129.215.90.114/data/comm.html" ;
 my $panda_ip = "129.215.91.125" ;
-my $benchmark = "matmul" ;
-my $data_size = 1024 ;
-my $block_size = 16 ;
-my $range_size = 64 ;
+
+my %benchmark_data = (
+	"doitgen" => [64,1,64],
+	"dotproduct" => [4194304,65536,64],
+	"edge_detect" => [2048,32,64],
+	"floydwarshall" => [512,8,64],
+	"histo" => [4096,64,64],
+	"matmul" => [1024,16,64],
+	"regdetect" => [64,1,64]
+) ;
+
+my $benchmark = "" ;
+my $data_size = 0 ;
+my $block_size = 0 ;
+my $range_size = 0 ;
+
+sub set_benchmark_data
+{
+	$benchmark = $_[0] ;
+	($data_size,$block_size,$range_size) = @{$benchmark_data{$benchmark}} ;
+        my $output = `ssh $panda_ip /home/kiran/phd_project_$benchmark/test.pl -opti 2>&1` ;
+}
 
 sub get_status
 {
@@ -108,26 +126,45 @@ sub measure_voltage
 				$k = $range_size - ($i+$j) ;
 			}
 			my $a9_size = $k*$block_size ;
-			if($a9_size >= 0) {
+			if(($a9_size == 0) and ($dsp_size > 0)) {
 				#or (($m3_size == 16) and ($dsp_size == 0))) {
 				my $remote_cmd = get_remote_cmd($a9_size, $m3_size, $dsp_size,$single_proc) ;
 				#my @indices = (1..3) ;
 				my @indices = (1) ;
 				foreach my $indx (@indices) {
-					my $output_file = $voltage_pin."_a9-".$k."-m3-".$i."-dsp-".$j."_".$indx ;
+					my $output_file = $benchmark."_".$voltage_pin."_a9-".$k."-m3-".$i."-dsp-".$j."_".$indx ;
 					print "$output_file\n" ;
 					#system("ssh $panda_ip $reset_cmd") ;
 					#sleep(5) ;
 					system("ssh $panda_ip $remote_cmd&") ;
 					sleep(10) ;
 					single_acquisition($mech) ;
-					sleep(210) ;
+					sleep(110) ;
 					get_csv($mech,1,$output_file) ;
 					sleep(10) ;
 				}
 			}
 		}
 	}
+}
+
+sub measure_voltage_wrapper
+{
+	my $proc = $_[0] ;
+	set_benchmark_data("doitgen") ;
+	measure_voltage($proc) ;
+	set_benchmark_data("dotproduct") ;
+	measure_voltage($proc) ;
+	set_benchmark_data("edge_detect") ;
+	measure_voltage($proc) ;
+	set_benchmark_data("floydwarshall") ;
+	measure_voltage($proc) ;
+	set_benchmark_data("histo") ;
+	measure_voltage($proc) ;
+	set_benchmark_data("regdetect") ;
+	measure_voltage($proc) ;
+	#set_benchmark_data("matmul") ;
+	#measure_voltage($proc) ;
 }
 
 #sub measure_voltage
@@ -172,18 +209,18 @@ or die("Error in command line arguments\n");
 die "Specify atleast one option : (a9, m3, dsp, idle)" unless ($a9 or $m3 or $dsp or $idle) ;
 
 if($a9) {
-	measure_voltage("a9") ;
+	measure_voltage_wrapper("a9") ;
 }
 if($m3) {
-	measure_voltage("m3") ;
+	measure_voltage_wrapper("m3") ;
 }
 if($dsp) {
-	measure_voltage("dsp") ;
+	measure_voltage_wrapper("dsp") ;
 }
 if($idle) {
 	my $vpin = $idle ;
 	my $output_file = $vpin."_idle_1" ;
 	single_acquisition($mech) ;
-	sleep(210) ;
+	sleep(110) ;
 	get_csv($mech,1,$output_file) ;
 }
