@@ -6,8 +6,8 @@ use WWW::Facebook::API;
 # to constructor
 my $client = WWW::Facebook::API->new(
     desktop => 1,
-    api_key => '210361752461159',
-    secret => 'cef69788d0d7796feda5bc97371ac4e2',
+    api_key => '',
+    secret => '',
 );
 
 ## Change API key and secret

@@ -9,8 +9,8 @@ use WWW::Facebook::API;
 my $q = CGI::Simple->new();
 my $fb = WWW::Facebook::API->new(
     desktop => 0,
-    api_key => '210361752461159',
-    secret  => 'cef69788d0d7796feda5bc97371ac4e2',
+    api_key => '',
+    secret  => '',
     query   => $q,
 );
  

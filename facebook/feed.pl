@@ -9,7 +9,7 @@ use JSON;
 use URI;
 use utf8;
 
-my $access_token = 'CAACZCUqmHn2cBAKsHBLjnDwhao5P6jxR3F73shtd6um7hZBymiKwQzIBHRKX7KCL2FGwIWCZATVdU8sQgqhPUlsQypMDDK2xpljZATpmkhs5ZBZCjCqwT5pZBXLs2rS8hXiOPhW6UDZAVyZBgARWdxleP81ZAA9v1MVZAZB5can8q1RFDwZDZD' ;
+my $access_token = '' ;
 
 # Fetch your News Feed from Facebook
 #my $resp = graph_api('me/home', { access_token => $access_token });
