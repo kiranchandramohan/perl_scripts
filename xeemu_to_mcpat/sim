@@ -1,0 +1,1071 @@
+
+**********************************************
+		cache panalyzer configuration
+**********************************************
+number of sets in cache: 128
+block size of cache: 4 (bytes)
+number of assoc in cache: 1
+number of word-line segments (nwls) in cache: 1
+number of bit-line segments (nbls) in cache: 1
+number of sub-arrays in cache: 1
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: btb_tag sub-array
+pmodel type: analytical power model
+number of rows in array: 128
+number of cols in array: 23
+transmission size in bytes: 3
+memory area: 4.2924e+04 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 3.1333e+00 (pF)
+effective leakage capacitance: 1.1213e+07 (pF)
+effective clocked capacitance: 1.6938e-01 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: btb_data sub-array
+pmodel type: analytical power model
+number of rows in array: 128
+number of cols in array: 32
+transmission size in bytes: 4
+memory area: 5.9720e+04 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 4.3578e+00 (pF)
+effective leakage capacitance: 1.4490e+07 (pF)
+effective clocked capacitance: 2.3566e-01 (pF)
+**********************************************
+total memory area: 1.5766e+08 (um^2)
+total external switching capacitance: 3.5898e+00 (pF)
+total internal switching capacitance: 2.3158e+01 (pF)
+total effective leakage capacitance: 8.1769e+07 (pF)
+total effective clocked capacitance: 1.2519e+00 (pF)
+
+**********************************************
+		cache panalyzer configuration
+**********************************************
+number of sets in cache: 32
+block size of cache: 32 (bytes)
+number of assoc in cache: 32
+number of word-line segments (nwls) in cache: 1
+number of bit-line segments (nbls) in cache: 1
+number of sub-arrays in cache: 32
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: dl1_tag sub-array
+pmodel type: analytical power model
+number of rows in array: 1024
+number of cols in array: 22
+transmission size in bytes: 3
+memory area: 1.4598e+05 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 1.6106e+01 (pF)
+effective leakage capacitance: 4.3938e+07 (pF)
+effective clocked capacitance: 4.5904e-01 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: dl1_data sub-array
+pmodel type: analytical power model
+number of rows in array: 1024
+number of cols in array: 256
+transmission size in bytes: 32
+memory area: 1.6987e+06 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 1.8737e+02 (pF)
+effective leakage capacitance: 3.6879e+08 (pF)
+effective clocked capacitance: 5.3416e+00 (pF)
+**********************************************
+total memory area: 7.0836e+08 (um^2)
+total external switching capacitance: 3.5898e+00 (pF)
+total internal switching capacitance: 2.8400e+02 (pF)
+total effective leakage capacitance: 6.3242e+08 (pF)
+total effective clocked capacitance: 8.0958e+00 (pF)
+
+**********************************************
+		cache panalyzer configuration
+**********************************************
+number of sets in cache: 32
+block size of cache: 32 (bytes)
+number of assoc in cache: 32
+number of word-line segments (nwls) in cache: 1
+number of bit-line segments (nbls) in cache: 1
+number of sub-arrays in cache: 32
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: il1_tag sub-array
+pmodel type: analytical power model
+number of rows in array: 1024
+number of cols in array: 22
+transmission size in bytes: 3
+memory area: 1.4598e+05 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 1.6106e+01 (pF)
+effective leakage capacitance: 4.3938e+07 (pF)
+effective clocked capacitance: 4.5904e-01 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: il1_data sub-array
+pmodel type: analytical power model
+number of rows in array: 1024
+number of cols in array: 256
+transmission size in bytes: 32
+memory area: 1.6987e+06 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 1.8737e+02 (pF)
+effective leakage capacitance: 3.6879e+08 (pF)
+effective clocked capacitance: 5.3416e+00 (pF)
+**********************************************
+total memory area: 7.0836e+08 (um^2)
+total external switching capacitance: 3.5898e+00 (pF)
+total internal switching capacitance: 2.8400e+02 (pF)
+total effective leakage capacitance: 6.3242e+08 (pF)
+total effective clocked capacitance: 8.0958e+00 (pF)
+
+**********************************************
+		cache panalyzer configuration
+**********************************************
+number of sets in cache: 1
+number of assoc in cache: 32
+number of word-line segments (nwls) in cache: 1
+number of bit-line segments (nbls) in cache: 1
+number of sub-arrays in cache: 32
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: itlb_tag sub-array
+pmodel type: analytical power model
+number of rows in array: 32
+number of cols in array: 30
+transmission size in bytes: 4
+memory area: 6.2208e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 7.3314e-01 (pF)
+effective leakage capacitance: 3.8289e+06 (pF)
+effective clocked capacitance: 3.6822e-02 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: itlb_data sub-array
+pmodel type: analytical power model
+number of rows in array: 32
+number of cols in array: 32
+transmission size in bytes: 4
+memory area: 6.6355e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 7.8175e-01 (pF)
+effective leakage capacitance: 4.0611e+06 (pF)
+effective clocked capacitance: 3.9276e-02 (pF)
+**********************************************
+total memory area: 1.5428e+05 (um^2)
+total external switching capacitance: 3.5898e+00 (pF)
+total internal switching capacitance: 5.1806e+00 (pF)
+total effective leakage capacitance: 2.7035e+07 (pF)
+total effective clocked capacitance: 2.6021e-01 (pF)
+
+**********************************************
+		cache panalyzer configuration
+**********************************************
+number of sets in cache: 1
+block size of cache: 4 (bytes)
+number of assoc in cache: 32
+number of word-line segments (nwls) in cache: 1
+number of bit-line segments (nbls) in cache: 1
+number of sub-arrays in cache: 32
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: dtlb_tag sub-array
+pmodel type: analytical power model
+number of rows in array: 32
+number of cols in array: 30
+transmission size in bytes: 4
+memory area: 6.2208e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 7.3314e-01 (pF)
+effective leakage capacitance: 3.8289e+06 (pF)
+effective clocked capacitance: 3.6822e-02 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: dtlb_data sub-array
+pmodel type: analytical power model
+number of rows in array: 32
+number of cols in array: 32
+transmission size in bytes: 4
+memory area: 6.6355e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 7.8175e-01 (pF)
+effective leakage capacitance: 4.0611e+06 (pF)
+effective clocked capacitance: 3.9276e-02 (pF)
+**********************************************
+total memory area: 1.5428e+05 (um^2)
+total external switching capacitance: 3.5898e+00 (pF)
+total internal switching capacitance: 5.1806e+00 (pF)
+total effective leakage capacitance: 2.7035e+07 (pF)
+total effective clocked capacitance: 2.6021e-01 (pF)
+
+**********************************************
+		io panalyzer configuration
+**********************************************
+name: aio
+pmodel type: analytical power model
+bus size (in bits):16
+strip_length =  2.000000
+microCeff 7.2350e-12
+optimal buffer transistor ratio: 6.2774e+00
+external switching capacitance: 4.6470e+00 (pF)
+internal switching capacitance: 1.2713e+01 (pF)
+effective leakage capacitance: 2.9181e+07 (pF)
+
+**********************************************
+		io panalyzer configuration
+**********************************************
+name: dio
+pmodel type: analytical power model
+bus size (in bits):64
+strip_length =  2.000000
+microCeff 7.2350e-12
+optimal buffer transistor ratio: 6.2774e+00
+external switching capacitance: 4.6470e+00 (pF)
+internal switching capacitance: 1.2713e+01 (pF)
+effective leakage capacitance: 1.1672e+08 (pF)
+
+**********************************************
+		io panalyzer configuration
+**********************************************
+name: iaddr
+pmodel type: analytical power model
+bus size (in bits):16
+strip_length =  2.000000
+microCeff 7.2350e-12
+optimal buffer transistor ratio: 6.2774e+00
+external switching capacitance: 4.6470e+00 (pF)
+internal switching capacitance: 1.2713e+01 (pF)
+effective leakage capacitance: 2.9181e+07 (pF)
+
+**********************************************
+		io panalyzer configuration
+**********************************************
+name: idata
+pmodel type: analytical power model
+bus size (in bits):64
+strip_length =  2.000000
+microCeff 7.2350e-12
+optimal buffer transistor ratio: 6.2774e+00
+external switching capacitance: 4.6470e+00 (pF)
+internal switching capacitance: 1.2713e+01 (pF)
+effective leakage capacitance: 1.1672e+08 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: irf
+pmodel type: analytical power model
+number of rows in array: 50
+number of cols in array: 32
+transmission size in bytes: 4
+memory area: 2.3328e+04 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 1.7404e+00 (pF)
+effective leakage capacitance: 8.4437e+06 (pF)
+effective clocked capacitance: 7.8553e-02 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: fprf
+pmodel type: empirical power model
+number of rows in array: 24
+number of cols in array: 64
+transmission size in bytes: 8
+memory area: 0.0000e+00 (um^2)
+external switching capacitance: 0.0000e+00 (pF)
+internal switching capacitance: 0.0000e+00 (pF)
+effective leakage capacitance: 0.0000e+00 (pF)
+effective clocked capacitance: 0.0000e+00 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: fill
+pmodel type: analytical power model
+number of rows in array: 4
+number of cols in array: 256
+transmission size in bytes: 32
+memory area: 6.6355e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 1.1057e+00 (pF)
+effective leakage capacitance: 1.9641e+07 (pF)
+effective clocked capacitance: 3.1421e-01 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: pend
+pmodel type: analytical power model
+number of rows in array: 4
+number of cols in array: 48
+transmission size in bytes: 6
+memory area: 1.2442e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 2.1182e-01 (pF)
+effective leakage capacitance: 3.7358e+06 (pF)
+effective clocked capacitance: 5.8915e-02 (pF)
+
+**********************************************
+		memory panalyzer configuration
+**********************************************
+sbank name: write
+pmodel type: analytical power model
+number of rows in array: 8
+number of cols in array: 128
+transmission size in bytes: 16
+memory area: 6.6355e+03 (um^2)
+external switching capacitance: 5.1283e-01 (pF)
+internal switching capacitance: 9.2157e-01 (pF)
+effective leakage capacitance: 1.0590e+07 (pF)
+effective clocked capacitance: 1.5711e-01 (pF)
+
+**********************************************
+List of node Ceff and die area
+
+**********************************************
+		clock tree panalyzer configuration
+**********************************************
+name: clock
+pmodel type: analytical power model
+clock tree style: H-tree
+target clock skew: 8.3000e+01 (ps)
+total die area: 1.1357e+07 (mm^2)
+total die edge length: 3.3700e+03 (mm)
+total clocked node capacitance: 0.0000e+00 (pF)
+clock tree block length: 3.0711e+09 (um)
+depth of clock tree: 2
+Ntree: 2
+external switching capacitance: 2.2242e+00 (pF)
+internal switching capacitance: 2.7155e+00 (pF)
+effective leakage capacitance: 6.8412e+05 (pF)
+
+**********************************************
+logic panalyzer creation:
+
+**********************************************
+		logic panalyzer configuration
+**********************************************
+name: logic
+finish assignment
+
+**********************************************
+sdram panalyzer creation:
+
+**********************************************
+		sdram panalyzer configuration
+**********************************************
+sdram name: sdram
+pmodel type: analytical power model (sbcci09)
+Idd0: -inf Idd1: 0.000000 Idd2: 0.000000 Idd3: 0.000000 Idd4: 0.000000 Idd6: 0.000000 Idd7: 0.000000
+
+**********************************************
+perf_2 panalyzer configuration
+**********************************************
+Effective CAP : 0.000000
+
+**********************************************
+perf panalyzer configuration
+**********************************************
+Effective CAP : 0.000000
+
+**********************************************
+skip panalyzer configuration
+**********************************************
+Effective CAP : 22.000000
+
+**********************************************
+fpu panalyzer configuration
+**********************************************
+Effective CAP : 200.000000
+
+**********************************************
+mult panalyzer configuration
+**********************************************
+Effective CAP : 363.000000
+
+**********************************************
+store panalyzer configuration
+**********************************************
+Effective CAP : 72.000000
+
+**********************************************
+load panalyzer configuration
+**********************************************
+Effective CAP : 141.000000
+
+**********************************************
+alu panalyzer configuration
+**********************************************
+Effective CAP : 96.000000
+
+**********************************************
+shift panalyzer configuration
+**********************************************
+Effective CAP : 41.000000
+
+**********************************************
+decoder panalyzer configuration
+**********************************************
+Effective CAP : 23.000000
+
+mfs: mfs file not found
+
+Command line: xeemu -redir:sim sim -power-file powerFile -power-sampling 10000 jpegtran -grayscale Butterfly.jpg 
+Started @ Thu Aug 23 16:28:37 2012
+XTREM: This simulator is a power/performance simulation tool that implements
+the pipeline microarchitecture of the Intel XScale(R) core. This tool is based on the
+SimpleScalar simulator.
+
+# -config                     # load configuration from a file
+# -dumpconfig                 # dump configuration to a file
+# -h                    false # print help message    
+# -v                    false # verbose operation     
+# -i                    false # start in Dlite debugger
+-seed                       1 # random number generator seed (0 for timer seed)
+# -q                    false # initialize and terminate immediately
+# -redir:sim              sim # redirect simulator output to file (non-interactive only)
+# -redir:prog          <null> # redirect simulated program output to file
+-nice                       0 # simulator scheduling priority
+# -max:cycle                0 # maximum number of cycless
+# -ptracepipe               0 # The pipe for the ptrace communications
+-os                     false # Operating system (SWI not emulated)
+-linux                  false # The operating system is a linux (must be combined with -os)
+-linuxmem                 128 # in MByte for Linux    
+-initrd                       # init ram disk image for Linux
+-sim_base_clock       66.6670 # External clock        
+-freq                       0 # Initial core frequency (in Mhz) (0: auto parameter: -sim_base_clock*9)
+-volt                  0.0000 # Initial core voltage level. (0: auto parameter for -sim_base_clock==66.667 MHz)
+-cache:dl1       dl1:32:32:32:f # l1 data cache config, i.e., {<config>|none}
+-cache:dl1lat               1 # l1 data cache hit latency (in cycles)
+-cache:dl2               none # l2 data cache config, i.e., {<config>|none}
+-cache:dl2lat               6 # l2 data cache hit latency (in cycles)
+-cache:il1       il1:32:32:32:f # l1 inst cache config, i.e., {<config>|dl1|dl2|none}
+-cache:il1lat               1 # l1 instruction cache hit latency (in cycles)
+-cache:il2               none # l2 instruction cache config, i.e., {<config>|dl2|none}
+-cache:il2lat               6 # l2 instruction cache hit latency (in cycles)
+-cache:flush            false # flush caches on system calls
+-cache:icompress        false # convert 64-bit inst addresses to 32-bit inst equivalents
+-mem:width                  8 # memory access bus width (in bytes)
+-mem:reqwidth               2 # memory access request bus width (in bytes)
+-res:ialu                   4 # total number of integer ALU's available
+-res:imult                  1 # total number of integer multiplier/dividers available
+-res:memport                2 # total number of memory system ports available (to CPU)
+-res:fpalu                  4 # total number of floating point ALU's available
+-res:fpmult                 1 # total number of floating point multiplier/dividers available
+# -pcstat              <null> # profile stat(s) against text addr's (mult uses ok)
+-pan:uarch        uarch:a:600 # u-architecture panalyzer conf
+-pan:clock       clock:a:600:n:83.0:4 # system clock panalyzer conf
+-pan:aio         aio:a:100:o:3.3:5:2:16 # address i/o conf      
+-pan:dio         dio:a:100:b:3.3:5:2:16 # data i/o conf         
+-pan:iaddr       iaddr:a:600:o:5:2:16 # address bus controller conf
+-pan:idata       idata:a:600:b:5:2:16 # data bus controller conf
+-pan:irf         irf:a:600:1.0 # integer register file panalyzer conf
+-pan:fprf        fprf:e:600:0.0:0.0:0.0 # floating point register file panalyzer conf
+-pan:fill        fill:a:600:1.0 # fill buffer panalyzer conf
+-pan:pend        pend:a:600:1.0 # pend buffer panalyzer conf
+-pan:write       write:a:600:1.0 # write buffer panalyzer conf
+-pan:il1         il1:a:600:1:1:1.0 # il1 panalyzer conf    
+-pan:dl1         dl1:a:600:1:1:1.0 # dl1 panalyzer conf    
+-pan:il2         il2:a:600:1:1:1.0 # il2 panalyzer conf    
+-pan:dl2         dl2:a:600:1:1:1.0 # dl2 panalyzer conf    
+-pan:itlb        itlb:a:600:1:1:1.0 # itlb  panalyzer conf  
+-pan:dtlb        dtlb:a:600:1:1:1.0 # dtlb  panalyzer conf  
+-pan:btb         btb:a:600:1:1:1.0 # btb  panalyzer conf   
+-pan:logic       logic:e:600:0.0:271.53:64.764 # logic panalyzer conf  
+-pan:sdram       sdram:s:100:4 # sdram panalyzer conf  
+-pan:sdram_include        false # add SDRAM power consumption to total power consumption
+-pan:decoder          23.0000 # Decoder effective Capacitance pF
+-pan:shift            41.0000 # Shifter effective Capacitance pF
+-pan:alu              96.0000 # ALU effective Capacitance pF
+-pan:load            141.0000 # Memory load effective Capacitance pF
+-pan:store            72.0000 # Memory store Capacitance pF
+-pan:mult            363.0000 # multiplier effective Capacitance pF
+-pan:fpu             200.0000 # floating point unit effective Capacitance pF
+-pan:skip             22.0000 # Not executed inst alu effective Capacitance pF
+-mem:freq                 100 # Memory operating frequency (MHz)
+-mem:Tcl                    2 # Cas latency (READ to data): 2 or 3
+-mem:Trp                    2 # Ras precharge (PRE/PALL to command): 2 or 3
+-mem:Tras                   6 # Ras active (ACT to PRE/PALL): 3 or greater
+-mem:Trcd                   2 # Ras to Cas delay (ACT to READ/WRITE): 2 or 3
+-mem:tRC                   66 # ACTIVE to ACTIVE command period (ns)
+-mem:pagepolicy             0 # OPEN_PAGE or CLOSE_PAGE
+-mem:powerdown          false # Enable(true)/disable(false) sdram power-down mode
+-mem:pd_threshold           20 # Needed memory cycles to switch into powerdown mode
+-mem:powerup            false # Enable(true)/disable(false) sdram power-down mode
+-mem:pu_threshold           20 # Needed memory cycles to switch into powerup mode
+-mfs-file         default.mfs # Name of the (Memory file system) mfs file
+-mfs-store               true # Store the mfs output files on disk
+-mfs-dump               false # Store the mfs linear memory on disk
+-mfs-dump-file   mfs-memory.dump # Name of the memory dump file
+-power-file         powerFile # Name of the power log file
+# -mem-trace           <null> # Name of the memory trace log file (only if -power-file is also used!)
+-power-sampling         10000 # Sampling rate of the power logging in cycles
+-symbol_profile         false # profile symbol break events
+-symbol_trace           false # trace symbol break events
+-code_profile           false # profile instructions  
+
+  Branch predictor configuration examples for 2-level predictor:
+    Configurations:   N, M, W, X
+      N   # entries in first level (# of shift register(s))
+      W   width of shift register(s)
+      M   # entries in 2nd level (# of counters, or other FSM)
+      X   (yes-1/no-0) xor history and address for 2nd level index
+    Sample predictors:
+      GAg     : 1, W, 2^W, 0
+      GAp     : 1, W, M (M > 2^W), 0
+      PAg     : N, W, 2^W, 0
+      PAp     : N, W, M (M == 2^(N+W)), 0
+      gshare  : 1, W, 2^W, 1
+  Predictor `comb' combines a bimodal and a 2-level predictor.
+
+  The cache config parameter <config> has the following format:
+
+    <name>:<nsets>:<bsize>:<assoc>:<repl>
+
+    <name>   - name of the cache being defined
+    <nsets>  - number of sets in the cache
+    <bsize>  - block size of the cache
+    <assoc>  - associativity of the cache
+    <repl>   - block replacement strategy, 'l'-LRU, 'f'-FIFO, 'r'-random
+
+    Examples:   -cache:dl1 dl1:4096:32:1:l
+                -dtlb dtlb:128:4096:32:r
+
+  Cache levels can be unified by pointing a level of the instruction cache
+  hierarchy at the data cache hiearchy using the "dl1" and "dl2" cache
+  configuration arguments.  Most sensible combinations are supported, e.g.,
+
+    A unified l2 cache (il2 is pointed at dl2):
+      -cache:il1 il1:128:64:1:l -cache:il2 dl2
+      -cache:dl1 dl1:256:32:1:l -cache:dl2 ul2:1024:64:2:l
+
+    Or, a fully unified cache hierarchy (il1 pointed at dl1):
+      -cache:il1 dl1
+      -cache:dl1 ul1:256:32:1:l -cache:dl2 ul2:1024:64:2:l
+
+  The u-architecture panalyzer config parameter <config> has the following format:
+
+Analytical power model - integrate power dissipation of defined power models
+                         of u-arch functional blocks (e.g, cache, i/o etc.
+    <name>:<pmodel>:<opfreq>
+
+    <name>   - name of the uarch being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+
+or
+Empirical power model - ignore power models of u-arch functional blocks
+    <name>:<pmodel>:<opfreq>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>   - name of the system being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <sCeff>  - external switching capacitance (pF) of uarch
+    <iCeff>  - internal switching capacitance (pF) of uarch
+    <lCeff>  - leakage capacitance (pF) of uarch
+
+    Examples:   -pan:uarch uarch:a:600
+                -pan:uarch uarch:e:600:sCeff:iCeff:lCeff
+
+  The system clock panalyzer config parameter <config> has the following format:
+
+Analytical power model
+    <name>:<pmodel>:<opfreq>:<ctstyle>:<cskew><ncbstages_opt>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <ctstyle>- clock tree style, 'n'- normal H-tree, 'b'- balanced H-tree
+    <cskew>  - target clock skew in (ps) - use 5% of clock period
+    <ncbstages_opt>
+             - optimal clock buffer stage ratio - use 3- 5
+
+or
+Empirical power model
+    <name>:<pmodel>:<opfreq>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <sCeff>  - clocked node capacitance (pF) of a clock tree
+    <iCeff>  - internal switching capacitance (pF) of a clock tree buffer
+    <lCeff>  - leakage capacitance (pF) of clock tree buffer
+
+    Examples:   -pan:clock clock:a:600:n:83.0:4
+                -pan:clock clock:e:600:sCeff:iCeff:lCeff
+
+  The io panalyzer config parameter <config> has the following format:
+
+Analytical power model
+    <name>:<pmodel>:<opfreq>:<style>:<nbstages_opt>:<sCeff>
+
+    <name>   - name of the io being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <style>  - io style, 'i'- in, 'o'- out, 'b'- bidirectional
+    [ <iovoltage> - IO Voltage ]
+    <nbstages_opt>
+             - optimal buffer stage ratio - use 3- 5
+    <micro_striplength> - length of microstrip
+    <sCeff>  - external switching capacitance (pF) of an i/o pin
+
+or
+Empirical power model
+    <name>:<pmodel>:<style>:<opfreq>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>   - name of the io being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <style>  - io style, 'i'- in, 'o'- out, 'b'- bidirectional
+    <opfreq> - operating frequency in (MHz)
+    [ <iovoltage> - IO Voltage ]
+    <sCeff>  - external switching capacitance (pF) of an i/o pin
+    <iCeff>  - internal switching capacitance (pF) of an i/o pin
+    <lCeff>  - leakage capacitance (pF) of an i/o pin
+
+    Examples:   -pan:aio aio:a:100:o:3.3:5:2:16
+                -pan:dio dio:e:100:3.3:sCeff:iCeff:lCeff
+
+
+  Static memory panalyzer (register file, fill/write buffers)
+  The static memory panalyzer config parameter <config> has the following format:
+
+Analytical power model
+
+    <name>:a:<opfreq>:<sCeff>
+    <name>    - name of the register file being defined
+                irf - integer, fprf - floating point register files
+    <pmodel>  - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq>  - operating frequency (MHz)
+    <sCeff>   - switching capacitance (pF) of a register file i/o pin
+
+or
+Empirical power model
+
+    <name>:e:<opfreq>:<opvolt>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>    - name of the register file being defined
+                irf - integer, fprf - floating point register files
+    <pmodel>  - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq>  - operating frequency in (MHz)
+    <sCeff>   - switching capacitance (pF) of a register file i/o pin
+    <iCeff>   - internal switching capacitance of a register file i/o pin
+    <lCeff>   - leakage capacitance (pF) of register file i/o pin
+
+    Examples:  -pan:irf irf:a:600:sCeff
+               -pan:fprf fprf:a:600:sCeff
+
+
+  cache panalyzer for il1, il2, dl1, dl2, itlb, dtlb, and btb
+  The cache panalyzer config parameter <config> has the following format:
+
+Analytical power model
+
+    <name>:a:<opfreq>:<nbls>:<nwls>:<sCeff>
+    <name>    - name of cache being defined
+    <pmodel>  - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq>  - operating frequency (MHz)
+    <nbls>    - number of bitlines in the memory array
+    <nwls>    - number of wordlines in the memory array
+    <sCeff>   - external switching capacitance (pF) of a cache i/o pin
+
+or
+Empirical power model
+
+    <name>:e:<opfreq>:<opvolt>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>    - name of cache being defined
+    <pmodel>  - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq>  - operating frequency (MHz)
+    <sCeff>   - switching capacitance (pF) of a cache i/o pin
+    <iCeff>   - internal switching capacitance of a cache i/o pin
+    <lCeff>   - leakage capacitance (pF) of a cache i/o pin
+
+    Examples:   -pan:il1 il1:a:600:1:1:sCeff
+                -pan:dl1 dl1:e:600:sCeff:iCeff:lCeff
+
+
+  small memory structure panalyzer
+  The small memory panalyzer config parameter <config> has the following format:
+
+Analytical power model
+
+    <name>:a:<opfreq>:<sCeff>
+    <name>    - name of the small memory structure  being defined
+                bimod - bimodal branch predictor
+                lev1 - lev 1 array of 2-lev branch predictor
+                lev2 - lev 2 array of 2-lev branch predictor
+                ras - return address stack
+    <pmodel>  - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq>  - operating frequency (MHz)
+    <sCeff>   - switching capacitance (pF) of memory structure / bus signal
+
+or
+Empirical power model
+
+    <name>:e:<opfreq>:<opvolt>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>    - name of the small memory structure  being defined
+                bimod - bimodal branch predictor
+                lev1 - lev 1 array of 2-lev branch predictor
+                lev2 - lev 2 array of 2-lev branch predictor
+                ras - return address stack
+    <pmodel>  - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq>  - operating frequency in (MHz)
+    <sCeff>   - switching capacitance (pF) of register file / bus signal
+    <iCeff>   - internal switching capacitance of register file /bit
+    <lCeff>   - leakage capacitance (pF) of register file / bit
+
+    Examples:  -pan:ras ras:a:233:sCeff
+               -pan:bimod bimod:a:233:sCeff
+
+  The system logic panalyzer config parameter <config> has the following format:
+
+Analytical power model
+    <name>:<pmodel>:<opfreq>:<svolt>:<lsytle>:<Ngates>:<Nfunc>:<fi>:<fld>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <svolt>  - supply voltage
+    <lstyle>  - logic style Static, Dynamic
+    <Ngates>  - Number of Gates
+    <Nfunc>  - Number of functions
+    <fi>  - number of Fan-in
+    <fld>  - number of Fan-out
+
+or
+Empirical power model
+    <name>:<pmodel>:<opfreq>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <sCeff>  - capacitance (pF) 
+    <iCeff>  - internal switching capacitance (pF) 
+    <lCeff>  - leakage capacitance (pF)
+
+    Examples:   -pan:logic logic:a:600:1.33:Static:600000:4:10:10
+                -pan:logic logic:e:600:sCeff:iCeff:lCeff
+
+  The sdram panalyzer config parameter <config> has the following format:
+
+Analytical power model
+    <name>:<pmodel>:<opfreq>:<svolt>:<sp_opfreq>:<sp_svolt>:<Idd0>:<Idd1>:<Idd2>:<Idd3>:<Idd4>:<Idd6>:<Idd7>:<chips>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 's', model published at sbcci2009, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <svolt>  - supply voltage
+    <sp_opfreq>  - operating frequency from specification(MHz)
+    <sp_svolt>  - supply voltage from specification
+    <Idd0>   - Idd0 mA (optional, can be set to 0.0)
+    <Idd1>   - Idd1 mA
+    <Idd2>   - Idd2 mA
+    <Idd3>   - Idd3 mA
+    <Idd4>   - Idd4 mA
+    <Idd6>   - Idd6 mA
+    <Idd7>   - Idd7 mA
+    <chips>  - Number of SDRAM chips
+
+or
+Empirical power model
+    <name>:<pmodel>:<opfreq>:<sCeff>:<iCeff>:<lCeff>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 's', model published at sbcci2009, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <sCeff>  - capacitance (pF) 
+    <iCeff>  - internal switching capacitance (pF) 
+    <lCeff>  - leakage capacitance (pF)
+
+or
+Empirical power model
+    <name>:<pmodel>:<opfreq>
+
+    <name>   - name of the clock being defined
+    <pmodel> - power model, 'a'- Analytical, 's', model published at sbcci2009, 'e'-Emperical
+    <opfreq> - operating frequency (MHz)
+    <chips>  - Number of SDRAM chips
+
+    Examples:   -pan:sdram sdram:a:100:3.3:133:3.3:0.0:115.0:2.0:45.0:140.0:3.0:0.5:4
+                -pan:sdram sdram:e:100:sCeff:iCeff:lCeff
+                -pan:sdram sdram:s:100:4
+
+
+Voltage has been changed to: 1.320000 V
+
+
+Simulation Characteristics:
+I Cache		32:32:32
+D Cache		32:32:32
+	Mem bus width: 8
+Write Buffers:	8:4
+Fill Buffers	4:8:4
+*****************************************
+
+******************************************
+sim_cycle                  10804364 # total simulation time in cycles
+sim_cycle_200                     0 # total simulation time in cycles for 200 MHz
+sim_cycle_266                     0 # total simulation time in cycles for 266 MHz
+sim_cycle_333                     0 # total simulation time in cycles for 333 MHz
+sim_cycle_400                     0 # total simulation time in cycles for 400 MHz
+sim_cycle_466                     0 # total simulation time in cycles for 466 MHz
+sim_cycle_533                     0 # total simulation time in cycles for 533 MHz
+sim_cycle_600              10804364 # total simulation time in cycles for 600 MHz
+sim_cycle_666                     0 # total simulation time in cycles for 666 MHz
+sim_cycle_733                     0 # total simulation time in cycles for 733 MHz
+sim_sim_runtime              0.0180 # estimated runtime (in secs)
+sim_diss_200                 0.0000 # total dissipation in Watts for 200 MHz
+sim_diss_266                 0.0000 # total dissipation in Watts for 266 MHz
+sim_diss_333                 0.0000 # total dissipation in Watts for 333 MHz
+sim_diss_400                 0.0000 # total dissipation in Watts for 400 MHz
+sim_diss_466                 0.0000 # total dissipation in Watts for 466 MHz
+sim_diss_533                 0.0000 # total dissipation in Watts for 533 MHz
+sim_diss_600           4820248.3627 # total dissipation in Watts for 600 MHz
+sim_diss_666                 0.0000 # total dissipation in Watts for 666 MHz
+sim_diss_733                 0.0000 # total dissipation in Watts for 733 MHz
+sim_sim_energy               0.0080 # estimated energy consumption (in Joule)
+sim_num_insn                5876985 # total number of instructions executed
+sim_num_issued_uops         6361602 # total number of UOPs issued
+sim_num_ex_uops             5357309 # executed non CISC UOPs
+sim_num_skip_uops            442919 # skipped non CISC UOPs
+sim_num_ex_cisc              344910 # executed CISC UOPs
+sim_num_skip_cisc            124031 # skipped CISC UOPs
+sim_IPC                      0.5439 # instructions per cycle
+sim_CPI                      1.8384 # cycles per instruction
+sim_write_buffers_full           41 # total number of cycles when write buffers are full
+sim_fill_buffers_full           156 # total number of cycles when fill buffers are full
+sim_pend_buffers_full        952657 # total number of cycles when pend buffers are full
+sim_true_data_dep           2083039 # total number of true data dependencies
+sim_fetch_dep                382689 # total number of fetch dependency cycles (excluding sim_memory_itlb_dep and sim_memory_fetch_dep)
+sim_shifter_dep              964582 # total number of stall cycles caused solely by the shifter
+sim_memory_dep              2013667 # total number of stall cycles caused solely by the memory
+sim_memory_dtlb_dep               0 # total number of memory stall cycles caused by DTLB (part of memory_dep, priority: highest)
+sim_memory_regf_dep           34481 # total number of memory stall cycles caused by register file stage (part of memory_dep, priority: middle)
+sim_memory_itlb_dep               0 # total number of memory stall cycles caused by ITLB (part of memory_dep, priority: lower)
+sim_memory_fetch_dep         117550 # total number of memory stall cycles caused by fetch stage (part of memory_dep, priority: lowest)
+sim_fillbuffer_hit          1000292 # number of fill buffer address hits
+sim_writebuffer_hit               0 # total number of write buffer hits
+sim_dtlb_miss                     0 # total number of dtlb misses
+sim_dtlb_lv2_miss                 0 # total number of dtlb lv2 misses
+sim_itlb_miss                     0 # total number of itlb misses
+sim_itlb_lv2_miss                 0 # total number of itlb lv2 misses
+sim_icache_stall             221119 # total cycles icache or ITLB cannot deliver
+sim_mispred_taken             37937 # number of mispredicted taken branches
+sim_mispred_nottaken          50996 # number of mispredicted nottaken branches
+sim_nonpred_taken              9649 # number of nonpredicted taken branches
+sim_num_stores               778539 # number of stores commited
+sim_num_loads               3357400 # number of loads commited
+sim_num_syscalls                169 # number of executed syscalls
+sim_num_branches             823817 # total number of branches executed
+sim_idle_cycle                    0 # total number of idle cycles (PWRMODE set to IDLE)
+sim_elapsed_time                  3 # total simulation time in seconds
+sim_inst_rate          1958995.0000 # simulation speed (in insts/sec)
+sim_total_refs              2457239 # total number of loads and stores executed
+sim_total_loads             1678700 # total number of loads executed
+sim_total_stores        778539.0000 # total number of stores executed
+sim_memory_loads              24642 # total number of memory loads
+sim_memory_stores             25584 # total number of memory stores
+il1.accesses                6245433 # total number of accesses
+il1.hits                    6237168 # total number of hits
+il1.misses                     8265 # total number of misses
+il1.replacements                386 # total number of replacements
+il1.writebacks                    0 # total number of writebacks
+il1.invalidations                 0 # total number of invalidations
+il1.miss_rate                0.0013 # miss rate (i.e., misses/ref)
+il1.repl_rate                0.0001 # replacement rate (i.e., repls/ref)
+il1.wb_rate                  0.0000 # writeback rate (i.e., wrbks/ref)
+il1.inv_rate                 0.0000 # invalidation rate (i.e., invs/ref)
+dl1.accesses                3492621 # total number of accesses
+dl1.hits                    2386373 # total number of hits
+dl1.misses                  1106248 # total number of misses
+dl1.replacements              22207 # total number of replacements
+dl1.writebacks                12912 # total number of writebacks
+dl1.invalidations                 0 # total number of invalidations
+dl1.miss_rate                0.3167 # miss rate (i.e., misses/ref)
+dl1.repl_rate                0.0064 # replacement rate (i.e., repls/ref)
+dl1.wb_rate                  0.0037 # writeback rate (i.e., wrbks/ref)
+dl1.inv_rate                 0.0000 # invalidation rate (i.e., invs/ref)
+debug_fill                        0 # not processed fill buffers
+debug_write                       0 # not processed write buffers
+debug_pend                        0 # not processed pend buffers
+ld_text_base           0x00008000 # program text (code) segment base
+ld_text_bound          0x0002c918 # program text (code) segment bound
+ld_text_size                 149784 # program text (code) size in bytes
+ld_data_base           0x0002c918 # program initialized data segment base
+ld_data_bound          0x0002fa84 # program initialized data segment bound
+ld_data_size                  12652 # program init'ed `.data' and uninit'ed `.bss' size in bytes
+ld_stack_base          0xc0000000 # program stack segment base (highest address in stack)
+ld_stack_size                 16384 # program initial stack size
+ld_prog_entry          0x0000811c # program entry point (initial PC)
+ld_environ_base        0xbfffc000 # program environment base address address
+ld_target_big_endian              0 # target executable endian-ness, non-zero if big endian
+mem.page_count                  136 # total number of pages allocated
+mem.page_mem                   544k # total size of memory pages allocated
+mem.ptab_misses                 136 # total first level page table misses
+mem.ptab_accesses          39326578 # total page table accesses
+mem.ptab_miss_rate           0.0000 # first level page table miss rate
+aio.switching             8536.3246 # aio total in switching power dissipation
+aio.avgswitching             0.0008 # aio avg in switching power dissipation
+aio.internal              3137.8930 # aio total internal power dissipation
+aio.avginternal              0.0003 # aio avg internal power dissipation
+aio.pdissipation         11674.2176 # aio total power dissipation
+aio.avgpdissipation          0.0011 # aio avg power dissipation
+dio.switching            17439.0999 # dio total in switching power dissipation
+dio.avgswitching             0.0016 # dio avg in switching power dissipation
+dio.internal              3137.8930 # dio total internal power dissipation
+dio.avginternal              0.0003 # dio avg internal power dissipation
+dio.pdissipation         20576.9929 # dio total power dissipation
+dio.avgpdissipation          0.0019 # dio avg power dissipation
+iaddr.switching           5154.7072 # iaddr total in switching power dissipation
+iaddr.avgswitching           0.0005 # iaddr avg in switching power dissipation
+iaddr.internal            1894.8342 # iaddr total internal power dissipation
+iaddr.avginternal            0.0002 # iaddr avg internal power dissipation
+iaddr.pdissipation        7049.5414 # iaddr total power dissipation
+iaddr.avgpdissipation        0.0007 # iaddr avg power dissipation
+idata.switching          10530.6977 # idata total in switching power dissipation
+idata.avgswitching           0.0010 # idata avg in switching power dissipation
+idata.internal            1894.8342 # idata total internal power dissipation
+idata.avginternal            0.0002 # idata avg internal power dissipation
+idata.pdissipation       12425.5319 # idata total power dissipation
+idata.avgpdissipation        0.0012 # idata avg power dissipation
+irf.switching            30155.8055 # irf total in switching power dissipation
+irf.avgswitching             0.0028 # irf avg in switching power dissipation
+irf.internal             17056.6895 # irf total internal power dissipation
+irf.avginternal              0.0016 # irf avg internal power dissipation
+irf.pdissipation         47212.4950 # irf total power dissipation
+irf.avgpdissipation          0.0044 # irf avg power dissipation
+fprf.switching               0.0000 # fprf total in switching power dissipation
+fprf.avgswitching            0.0000 # fprf avg in switching power dissipation
+fprf.internal                0.0000 # fprf total internal power dissipation
+fprf.avginternal             0.0000 # fprf avg internal power dissipation
+fprf.pdissipation            0.0000 # fprf total power dissipation
+fprf.avgpdissipation         0.0000 # fprf avg power dissipation
+fill.switching             604.7815 # fill total in switching power dissipation
+fill.avgswitching            0.0001 # fill avg in switching power dissipation
+fill.internal               25.5680 # fill total internal power dissipation
+fill.avginternal             0.0000 # fill avg internal power dissipation
+fill.pdissipation          630.3494 # fill total power dissipation
+fill.avgpdissipation         0.0001 # fill avg power dissipation
+pend.switching             218.8412 # pend total in switching power dissipation
+pend.avgswitching            0.0000 # pend avg in switching power dissipation
+pend.internal               10.0434 # pend total internal power dissipation
+pend.avginternal             0.0000 # pend avg internal power dissipation
+pend.pdissipation          228.8846 # pend total power dissipation
+pend.avgpdissipation         0.0000 # pend avg power dissipation
+write.switching            326.4892 # write total in switching power dissipation
+write.avgswitching           0.0000 # write avg in switching power dissipation
+write.internal              23.4684 # write total internal power dissipation
+write.avginternal            0.0000 # write avg internal power dissipation
+write.pdissipation         349.9576 # write total power dissipation
+write.avgpdissipation        0.0000 # write avg power dissipation
+il1.switching             7204.0171 # il1 total in switching power dissipation
+il1.avgswitching             0.0007 # il1 avg in switching power dissipation
+il1.internal            271930.7946 # il1 total internal power dissipation
+il1.avginternal              0.0252 # il1 avg internal power dissipation
+il1.pdissipation        279134.8117 # il1 total power dissipation
+il1.avgpdissipation          0.0258 # il1 avg power dissipation
+dl1.switching             7937.3411 # dl1 total in switching power dissipation
+dl1.avgswitching             0.0007 # dl1 avg in switching power dissipation
+dl1.internal            107827.2798 # dl1 total internal power dissipation
+dl1.avginternal              0.0100 # dl1 avg internal power dissipation
+dl1.pdissipation        115764.6209 # dl1 total power dissipation
+dl1.avgpdissipation          0.0107 # dl1 avg power dissipation
+itlb.switching            6320.5199 # itlb total in switching power dissipation
+itlb.avgswitching            0.0006 # itlb avg in switching power dissipation
+itlb.internal            11812.6932 # itlb total internal power dissipation
+itlb.avginternal             0.0011 # itlb avg internal power dissipation
+itlb.pdissipation        18133.2131 # itlb total power dissipation
+itlb.avgpdissipation         0.0017 # itlb avg power dissipation
+dtlb.switching            7843.6735 # dtlb total in switching power dissipation
+dtlb.avgswitching            0.0007 # dtlb avg in switching power dissipation
+dtlb.internal             4626.3324 # dtlb total internal power dissipation
+dtlb.avginternal             0.0004 # dtlb avg internal power dissipation
+dtlb.pdissipation        12470.0059 # dtlb total power dissipation
+dtlb.avgpdissipation         0.0012 # dtlb avg power dissipation
+btb.switching              426.8469 # btb total in switching power dissipation
+btb.avgswitching             0.0000 # btb avg in switching power dissipation
+btb.internal             13726.0942 # btb total internal power dissipation
+btb.avginternal              0.0013 # btb avg internal power dissipation
+btb.pdissipation         14152.9410 # btb total power dissipation
+btb.avgpdissipation          0.0013 # btb avg power dissipation
+logic.switching              0.0000 # logic total in switching power dissipation
+logic.avgswitching           0.0000 # logic avg in switching power dissipation
+logic.internal         2920129.9237 # logic total internal power dissipation
+logic.avginternal            0.2703 # logic avg internal power dissipation
+logic.leakage           920569.8269 # logic total leakage power dissipation
+logic.avgleakage             0.0852 # logic avg leakage power dissipation
+logic.pdissipation     3840699.7505 # logic total power dissipation
+logic.avgpdissipation        0.3555 # logic avg power dissipation
+clock.switching          23919.8357 # clock total in switching power dissipation
+clock.avgswitching           0.0022 # clock avg in switching power dissipation
+clock.internal           29203.7450 # clock total internal power dissipation
+clock.avginternal            0.0027 # clock avg internal power dissipation
+clock.pdissipation       53123.5807 # clock total power dissipation
+clock.avgpdissipation        0.0049 # clock avg power dissipation
+decoder access              6361602 # number of times decoder is accessed
+decoder.pdissipation     76483.1242 # Total power for decoder
+shift access                 910257 # number of times shift is accessed
+shift.pdissipation       19508.2886 # Total power for shift
+alu access                  3241426 # number of times alu is accessed
+alu.pdissipation        162659.2004 # Total power for alu
+load access                 1678700 # number of times load is accessed
+load.pdissipation       123726.7177 # Total power for load
+store access                 778539 # number of times store is accessed
+store.pdissipation       29301.1157 # Total power for store
+mult access                    3554 # number of times mult is accessed
+mult.pdissipation          674.3655 # Total power for mult
+fpu access                        0 # number of times fpu is accessed
+fpu.pdissipation             0.0000 # Total power for fpu
+skip access                  566950 # number of times skip is accessed
+skip.pdissipation         6519.8669 # Total power for skip
+perf access                       0 # number of times perf is accessed
+perf.pdissipation            0.0000 # Total power for perf
+perf_2 access                     0 # number of times perf_2 is accessed
+perf_2.pdissipation          0.0000 # Total power for perf_2
+sdram.switching        1315051.5487 # sdram total in switching power dissipation
+sdram.avgswitching           0.1217 # sdram avg in switching power dissipation
+sdram.internal         2428699.7850 # sdram total internal power dissipation
+sdram.avginternal            0.2248 # sdram avg internal power dissipation
+sdram.pdissipation     3743751.3337 # sdram total power dissipation
+sdram.avgpdissipation        0.3465 # sdram avg power dissipation
+uarch.switching         100643.5564 # uarch total in switching power dissipation
+uarch.avgswitching           0.0093 # uarch avg in switching power dissipation
+uarch.internal         3799034.9794 # uarch total internal power dissipation
+uarch.avginternal            0.3516 # uarch avg internal power dissipation
+uarch.leakage           920569.8269 # uarch total leakage power dissipation
+uarch.avgleakage             0.0852 # uarch avg leakage power dissipation
+uarch.pdissipation     4820248.3627 # uarch total power dissipation
+uarch.avgpdissipation        0.4461 # uarch avg power dissipation
+memory.cycles               1800728 # total cycles of memory subsystem
+memory.read_cycles            98568 # number of read cycles
+memory.write_cycles           51168 # number of write cycles
+memory.refreshes               1152 # number of refreshes issued to sdram
+memory.activations            27908 # number of row activations
+memory.pd_count                   0 # number of "SDRAM goes to power-down mode" events
+memory.all_banks_pre         247313 # number of SDRAM all banks precharged cycles
+memory.cke_low                    0 # number of SDRAM cke held low cycles
+memory.SREF_events                0 # number of refreshes automatically issued by the memory in SREF mode
+memory.pdissipation        346.5018 # avg memory total power dissipation (mW)
+
